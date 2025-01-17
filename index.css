@@ -1,0 +1,73 @@
+body{
+    margin:0px;
+    padding-top: 40px;
+    border-radius: 25px;
+    background-image: url("/images/13.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container{
+    margin: auto;
+    width:40%;
+    min-height: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(253, 252, 252, 0.889);
+
+}
+
+#data{
+    background-color:rgba(255, 255, 255, 0.092);
+    width: 100%;
+    border: hidden;
+    padding:20px;
+    text-align: left;
+    color:white;
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0px;
+
+}
+
+#buttons {
+    padding-left: 50px;
+    background-color: rgba(11, 11, 11, 0.306);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+    gap: 15px; /* Ensures spacing between grid items */
+}
+
+
+button {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(2, 2, 2) ;
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 12px 24px; /* Padding inside the button */
+    font-size: 2.5rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+    box-shadow: 4px 4px 3px rgb(253, 252, 252); 
+  }
+  
+button:hover {
+    background-color: rgba(58, 59, 54, 0.6s) ;/* Green background */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  /* Button Active (Click) Effect */
+button:active {
+    background-color: white; /* Even darker green */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+    transform: translateY(0); /* Reset lift */
+  }
+button.operator {
+    color:greenyellow
+}
+
+
